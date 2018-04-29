@@ -151,7 +151,7 @@ class Counter(object):
         return self._value == other._value
 
 
-
+"""
 c1 = Counter()
 print(c1)
 c1.getValue()
@@ -169,5 +169,7 @@ print(c1 == 0)
 print(c1 == c2)
 c2.increment()
 print(c1 == c2)
+"""
+
 
 
