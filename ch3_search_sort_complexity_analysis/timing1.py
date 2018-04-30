@@ -167,3 +167,19 @@ def bubblesort(lyst):
     return lyst_bubble
 a_bubble = bubblesort([5, 3, 1, 2, 4])
 # 插入排序，没看懂。。。
+
+def fib(n, counter):
+    """Counter the number of iterations in the Fibonacci function."""
+    sum = 1
+    first = 1
+    second = 1
+    count = 3
+    while count <= n:
+        counter.increment()
+        sum = first + second
+        first = second
+        second = sum
+        count += 1
+    return sum
+
+
